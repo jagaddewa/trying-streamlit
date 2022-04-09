@@ -4,8 +4,6 @@ import streamlit as st
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tick
-import locale
-locale.setlocale(locale.LC_ALL, 'en_US')
 
 #Buka file
 file_csv="test.csv"
