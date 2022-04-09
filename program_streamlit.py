@@ -5,6 +5,9 @@ import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tick
 
+locale=open('package.txt','r')
+
+
 #Buka file
 file_csv="test.csv"
 df=pd.read_csv(file_csv)
