@@ -4,8 +4,8 @@ import streamlit as st
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tick
-
-locale=open('package.txt','r')
+import locale
+locale.setlocale(locale.LC_ALL, 'en_US')
 
 
 #Buka file
